@@ -5,8 +5,8 @@ import threading
 
 app = Flask(__name__)
 
-BOT_TOKEN = "8603340393:AAFl5dMuGtWC4NN8H8FUDJvoJjy-ej6uzAE"
-CHAT_ID = "5704950242"
+BOT_TOKEN = "YOUR BOT_TOKEN"    // BotFather
+CHAT_ID = "YOUR CHAT_ID"    // IDBot
 
 
 def enviar_telegram(mensaje):
