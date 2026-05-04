@@ -1,0 +1,116 @@
+"python" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+[2026-05-03 03:23:56,382] ERROR in app: Exception on /puerta-abierta [GET]
+Traceback (most recent call last):
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\servidor_cerradura.py", line 33, in puerta_abierta
+    print("Mensaje enviado:", mensaje)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f513' in position 0: character maps to <undefined>
+172.20.10.2 - - [03/May/2026 03:23:56] "GET /puerta-abierta HTTP/1.1" 500 -
+[2026-05-03 03:25:32,141] ERROR in app: Exception on /puerta-abierta [GET]
+Traceback (most recent call last):
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\servidor_cerradura.py", line 33, in puerta_abierta
+    print("Mensaje enviado:", mensaje)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f513' in position 0: character maps to <undefined>
+172.20.10.2 - - [03/May/2026 03:25:32] "GET /puerta-abierta HTTP/1.1" 500 -
+[2026-05-03 03:26:42,776] ERROR in app: Exception on /clave-incorrecta [GET]
+Traceback (most recent call last):
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\.venv\lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\PROYECTOS ELECTRONICOS\CERRADURA DIGITAL\SERV_CERRADURA_DIG\servidor_cerradura.py", line 46, in clave_incorrecta
+    print("Mensaje enviado:", mensaje)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+172.20.10.2 - - [03/May/2026 03:26:42] "GET /clave-incorrecta HTTP/1.1" 500 -
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+172.20.10.2 - - [03/May/2026 03:29:01] "GET /puerta-abierta HTTP/1.1" 200 -
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+172.20.10.2 - - [03/May/2026 03:30:40] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:31:08] "GET /clave-incorrecta HTTP/1.1" 200 -
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+172.20.10.2 - - [03/May/2026 03:33:10] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:33:21] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:34:12] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:41:58] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:43:00] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 03:43:12] "GET /clave-incorrecta HTTP/1.1" 200 -
+ * Serving Flask app 'servidor_cerradura'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.2:5000
+Press CTRL+C to quit
+172.20.10.2 - - [03/May/2026 03:44:06] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 12:17:42] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 12:17:52] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 12:19:43] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 12:40:06] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:16:45] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:16:49] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:16:55] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:17:02] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:17:07] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:17:18] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 13:17:22] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 23:46:18] "GET /puerta-abierta HTTP/1.1" 200 -
+172.20.10.2 - - [03/May/2026 23:46:37] "GET /clave-incorrecta HTTP/1.1" 200 -
+172.20.10.2 - - [04/May/2026 00:01:35] "GET /puerta-abierta HTTP/1.1" 200 -
