@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL25qKg6Zdj"
+#define BLYNK_TEMPLATE_ID "YOUR BLYNK_TEMPLATE_ID "
 #define BLYNK_TEMPLATE_NAME "Cerradura Digital"
-#define BLYNK_AUTH_TOKEN "AxVwuosmGCFsE3hh288Q084qNwZ9Famp"
+#define BLYNK_AUTH_TOKEN "YOUR BLYNK_AUTH_TOKEN"
 
 #define BLYNK_PRINT Serial
 
@@ -20,8 +20,9 @@ PCF8574KeypadLite teclado(KEYPAD_ADDRESS);
 // =====================
 // WIFI
 // =====================
-const char* ssid = "Laptop Luis Gerardo";
-const char* password = "HolaMundo";unsigned long ultimoIntentoWiFi = 0;
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASS";
+unsigned long ultimoIntentoWiFi = 0;
 unsigned long ultimoIntentoBlynk = 0;
 const unsigned long INTERVALO_WIFI = 10000;   // cada 10 segundos
 const unsigned long INTERVALO_BLYNK = 15000;  // cada 15 segundos
